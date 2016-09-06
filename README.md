@@ -1,1 +1,47 @@
 # Cube
+speed 50
+pen blue
+for [1..5]
+  fd 100
+  rt 90
+lt 45
+fd 50
+rt 45
+fd 100
+rt 135
+fd 50
+pen null
+bk 50
+lt 130
+rt 85
+pen blue
+fd 100
+rt 45
+fd 50
+pen null
+rt 45
+fd 50
+rt 90
+fd 50
+pen blue
+for [1..5]
+  fd 33.333
+  rt 90
+lt 45
+fd 16.66
+rt 45
+fd 33.333
+rt 135
+fd 16.66
+pen null
+bk 16.66
+lt 130
+rt 85
+pen blue
+fd 33.33
+rt 45
+fd 16.66
+pen null
+rt 45
+fd 25
+# similar code, only thing different is the length of the fd and bk. They have a 1 to 3 ratio
